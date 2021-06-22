@@ -1,5 +1,5 @@
 from flask import Flask
-
+# script for heroku launch/ flask app
 app = Flask(__name__)
 
 @app.route('/', methods =['GET','POST'])
